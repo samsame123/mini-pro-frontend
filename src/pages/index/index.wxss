@@ -1,4 +1,84 @@
 /**index.wxss**/
+.index-container{
+    padding: 0;
+    font-size: .75rem;
+}
+.search-panel{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 2rem;
+    background: #666;
+}
+.search-panel__location{
+    position: relative;
+    height: 100%;
+    background: none;
+}
+.search-panel__location .select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 100%;
+    font-size: .75rem;
+    color: #fff;
+    border: none;
+    background: none;
+}
+.search-panel__input{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .25rem .25rem;
+    padding: 0 .5rem;
+    background: #fff;
+    border-radius: 20px;
+}
+.search-panel__input text{
+    margin-left: .25rem;
+    color: #bbb;
+}
+.banner-panel image{
+    width: 100%;
+}
+.nav-panel{
+    display: flex;
+    flex-direction: row;
+    padding: .5rem 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+.nav-panel .nav-box{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+}
+.nav-panel image{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #666;
+    border-radius: 50%;
+}
+.flow-panel{
+    display: table;
+    width: 100%;
+}
+.flow-panel .flow-box{
+    float: left;
+    padding: .5rem;
+    width: 50%;
+    box-sizing: border-box;
+}
+.flow-panel .flow-box image{
+    width: 100%;
+}
+
+
+
+
 .userinfo {
   display: flex;
   flex-direction: column;
